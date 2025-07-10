@@ -3,26 +3,27 @@
 <head>
   <title>How Well Do You Know Us?</title>
   <style>
-    body{
-      margin:0;
-      padding:2rem;
-      background:#f0f8ff;
-      font-family:"Segoe UI",sans-serif;
-      text-align:center;
-    }
-    h1{
-      color:#4a90e2;
-      margin-bottom:2rem;
+    body {
+      margin: 0;
+      padding: 2rem;
+      background: #f0f8ff;
+      font-family: "Segoe UI", sans-serif;
+      text-align: center;
     }
 
-    .q-box{
-      background:#ffffff;
-      border:2px dashed #a6c9e2;
-      border-radius:16px;
-      padding:1.5rem;
-      margin:1.5rem auto;
-      max-width:500px;
-      box-shadow:0 0 10px rgba(138,180,248,0.20);
+    h1 {
+      color: #4a90e2;
+      margin-bottom: 2rem;
+    }
+
+    .q-box {
+      background: #ffffff;
+      border: 2px dashed #a6c9e2;
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin: 1.5rem auto;
+      max-width: 600px;
+      box-shadow: 0 0 10px rgba(138, 180, 248, 0.2);
     }
 
     .answer {
@@ -33,70 +34,74 @@
       display: block;
     }
 
-    label{
-      display:inline-block;
-      margin-top:16px;          /*1rem = 16px*/
-      padding:0.5rem 1rem;
-      background:#89c2d9;
-      color:#fff;
-      border-radius:8px;
-      cursor:pointer;
-      transition:background 1s, transform 0.2s ;
-      
+    label {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 0.5rem 1rem;
+      background: #89c2d9;
+      color: #fff;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 1s, transform 0.2s;
     }
 
-    label:hover{
-        background:#4a90e2;
-        transform: scale(1.05); 
+    label:hover {
+      background: #4a90e2;
+      transform: scale(1.05);
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 2rem;
+      text-decoration: none;
+      color: #4a90e2;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #e6739f;
     }
   </style>
 </head>
 <body>
 
-<h1>🧩 How well do you know us?</h1>
+  <h1>🧩 How well do you know us?</h1>
 
- <div class="q-box">
-<h3>1. When was our first date</h3>
-<input type="checkbox">
-<label>Show answer</label>
-<div class="answer">13th december at around 10am ☕️</div>
+  <div class="q-box">
 
+    <h3>1. When was our first date</h3>
+    <input type="checkbox" id="q1">
+    <label for="q1">Show answer</label>
+    <div class="answer">13th December at around 10am ☕️</div>
 
-<h3>2. What was the first movie that we watched together</h3>
-<input type="checkbox">
-<label>Show answer</label>
-<div class="answer">500 days of summer</div>
+    <h3>2. What was the first movie that we watched together</h3>
+    <input type="checkbox" id="q2">
+    <label for="q2">Show answer</label>
+    <div class="answer">500 Days of Summer</div>
 
+    <h3>3. What’s my love language? (you should know this)</h3>
+    <input type="checkbox" id="q3">
+    <label for="q3">Show answer</label>
+    <div class="answer">Quality time</div>
 
-<h3>3.Whats my love language?(you should know this)</h3>
-<input type="checkbox">
-<label>Show answer</label>
-<div class="answer">quality time</div>
-</div>
-<p><a href="main.html">⬅️ Back to Birthday Card</a></p>
+    <h3>4. One time I made you super mad</h3>
+    <input type="checkbox" id="q4">
+    <label for="q4">Show answer</label>
+    <div class="answer">You shouldn’t be answering this — I never make you mad 😇</div>
 
-<h3>4.One time I made you super mad</h3>
-<input type="checkbox">
-<label>Show answer</label>
-<div class="answer">you shouldnt be answering this I never make you mad</div>
-</div>
-<p>
+    <h3>5. One time I made you laugh too much</h3>
+    <input type="checkbox" id="q5">
+    <label for="q5">Show answer</label>
+    <div class="answer">IK it’s everyday 😂</div>
 
-<h3>5.One time I made you laugh too much</h3>
-<input type="checkbox">
-<label>Show answer</label>
-<div class="answer">IK its everyday</div>
-</div>
-<p>
+    <h3>6. One time I made you super mad (again?)</h3>
+    <input type="checkbox" id="q6">
+    <label for="q6">Show answer</label>
+    <div class="answer">Still nope! Never mad 😁</div>
 
-<h3>6.One time I made you super mad</h3>
-<input type="checkbox">
-<label>Show answer</label>
-<div class="answer">you shouldnt be answering this I never make you mad</div>
-</div>
-<p>
+  </div>
 
-  <a href="main.html">⬅️ Back to Birthday Card</a></p>
+  <p><a href="index.html">⬅️ Back to Birthday Card</a></p>
 
 </body>
 </html>
